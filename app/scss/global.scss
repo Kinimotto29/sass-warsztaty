@@ -1,0 +1,135 @@
+@import "zmienne";
+
+/* General */
+
+* {
+    box-sizing: border-box;
+}
+
+.yellow {
+    color: $yellow;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+/* General END */
+
+#main-container {
+    height: 800px;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+
+    /* Main header */
+    .header {
+        margin-top: 20px;
+
+
+        .header-content {
+            float: right;
+            width: 40%;
+
+            .header-fa {
+                float: left;
+                line-height: 65px;
+                font-size: 3em;
+            }
+        }
+    }
+    /* Main header END */
+    /* Main form */
+    #form-container {
+        width: 200x;
+        height: 420px;
+        float: right;
+        margin-top: 50px;
+        position: relative;
+        margin-right: 10%;
+
+        h4 {
+            margin-bottom: 20px;
+        }
+
+        .main-form {
+            height: 370px;
+            width: 100%;
+            background-color: $dark-blue;
+            padding: 10px;
+            position: absolute;
+
+            input:not([type="submit"]),
+            textarea {
+                border: none;
+                width: 100%;
+                height: 45px;
+                padding: 10px;
+                margin-bottom: 10px;
+
+                &:focus {
+                    background-color: $light-blue;
+                }
+            }
+
+            input[type="submit"] {
+                border: none;
+                cursor: pointer;
+                background-color: $yellow;
+                font-weight: 700;
+                padding: 10px;
+                transition: all .2s ease;
+
+                &:hover {
+                    background-color: #fff;
+                    color: $dark-blue;
+                }
+            }
+        }
+    }
+    /* Main form END */
+}
+
+/* Main footer */
+
+#main-footer {
+    background-color: $grey;
+    height: 200px;
+    color: #fff;
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+        transition: all .2s ease;
+        
+        &:hover {
+            color: $light-blue;
+        }
+    }
+    
+    i {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 50px;
+        background-color: $yellow;
+        color: #000;
+        line-height: 50px;
+        font-size: 1.5em;
+        transition: all .2s ease;
+        
+        &:hover {
+            background-color: $light-blue;
+        }
+    }
+}
+
+/* Main footer END */

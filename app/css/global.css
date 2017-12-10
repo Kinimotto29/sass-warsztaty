@@ -1,0 +1,130 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+.yellow {
+    color: #ecd407;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+/* General END */
+#main-container {
+    height: 800px;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+  /* Main header */
+  /* Main header END */
+  /* Main form */
+  /* Main form END */
+}
+
+#main-container .header {
+    margin-top: 20px;
+}
+
+#main-container .header .header-content {
+    float: right;
+    width: 40%;
+}
+
+#main-container .header .header-content .header-fa {
+    float: left;
+    line-height: 65px;
+    font-size: 3em;
+}
+
+#main-container #form-container {
+    width: 200x;
+    height: 420px;
+    float: right;
+    margin-top: 50px;
+    position: relative;
+    margin-right: 10%;
+}
+
+#main-container #form-container h4 {
+    margin-bottom: 20px;
+}
+
+#main-container #form-container .main-form {
+    height: 370px;
+    width: 100%;
+    background-color: #001d8a;
+    padding: 10px;
+    position: absolute;
+}
+
+#main-container #form-container .main-form input:not([type="submit"]),
+      #main-container #form-container .main-form textarea {
+    border: none;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#main-container #form-container .main-form input:not([type="submit"]):focus,
+        #main-container #form-container .main-form textarea:focus {
+    background-color: #97ffdc;
+}
+
+#main-container #form-container .main-form input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    background-color: #ecd407;
+    font-weight: 700;
+    padding: 10px;
+    transition: all .2s ease;
+}
+
+#main-container #form-container .main-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #001d8a;
+}
+
+/* Main footer */
+#main-footer {
+    background-color: #292929;
+    height: 200px;
+    color: #fff;
+}
+
+#main-footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+#main-footer a:hover {
+    color: #97ffdc;
+}
+
+#main-footer i {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: #ecd407;
+    color: #000;
+    line-height: 50px;
+    font-size: 1.5em;
+    transition: all .2s ease;
+}
+
+#main-footer i:hover {
+    background-color: #97ffdc;
+}
+
+/* Main footer END */
